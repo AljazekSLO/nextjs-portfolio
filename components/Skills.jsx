@@ -164,14 +164,14 @@ const Skills = () => {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  src="/../public/assets/skills/cpp.png"
+                  src="/../public/assets/skills/nextjs.png"
                   width="64px"
                   height="64px"
                   alt="/"
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>C++</h3>
+                <h3>NEXT</h3>
               </div>
             </div>
           </div>

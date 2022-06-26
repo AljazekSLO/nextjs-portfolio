@@ -30,28 +30,9 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Aljaž Radovan</h2>
+                <h2 className="py-4">Aljaž Radovan</h2>
                 <p>Full-Stack Developer</p>
-                <p className="py-4">
-                  I'm available for freelance or part-time positions.
-                </p>
-              </div>
-              <div>
-                <p className="uppercase pt-8">Connect With Me</p>
-                <div className="flex items-center justify-between py-4">
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <FaGithub />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineInstagram />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <AiOutlineMail />
-                  </div>
-                  <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-                    <BsFillPersonLinesFill />
-                  </div>
-                </div>
+                <p>I'm available for freelance or part-time positions.</p>
               </div>
             </div>
           </div>

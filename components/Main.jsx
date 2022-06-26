@@ -8,6 +8,7 @@ import {
 } from "react-icons/ai";
 import { FaGithub } from "react-icons/fa";
 import { BsFillPersonLinesFill } from "react-icons/bs";
+import Link from "next/link";
 
 const Main = () => {
   return (
@@ -23,23 +24,31 @@ const Main = () => {
           <h1 className="py-2 text-gray-700">A Full-Stack Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
             Quickly explained, I'm a full-stack web developer specializing in
-            building exceptional experiences. Currently, I'm focused on building
-            modern front-end web applications with React Framework while
-            learning back-end technologies.
+            building dynamic websites. Currently, I'm focused on building modern
+            front-end web applications with React Framework while learning
+            back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <FaGithub />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineInstagram />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <AiOutlineMail />
-            </div>
-            <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
-              <BsFillPersonLinesFill />
-            </div>
+            <Link href="https://github.com/AljazekSLO" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <FaGithub />
+              </div>
+            </Link>
+            <Link href="https://www.instagram.com/aljazekyt/" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineInstagram />
+              </div>
+            </Link>
+            <Link href="/#contact" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <AiOutlineMail />
+              </div>
+            </Link>
+            <Link href="/#about" target="_blank">
+              <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
+                <BsFillPersonLinesFill />
+              </div>
+            </Link>
           </div>
         </div>
       </div>

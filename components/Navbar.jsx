@@ -154,18 +154,41 @@ const Navbar = () => {
                 Let's connect!
               </p>
               <div className="flex items-center justify-between my-4 w-full sm:w-[80%]">
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <FaGithub />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineInstagram />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <AiOutlineMail />
-                </div>
-                <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300">
-                  <BsFillPersonLinesFill />
-                </div>
+                <Link href="https://github.com/AljazekSLO" target="_blank">
+                  <div
+                    onClick={() => setNav(false)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
+                    <FaGithub />
+                  </div>
+                </Link>
+                <Link
+                  href="https://www.instagram.com/aljazekyt/"
+                  target="_blank"
+                >
+                  <div
+                    onClick={() => setNav(false)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
+                    <AiOutlineInstagram />
+                  </div>
+                </Link>
+                <Link href="/#contact" target="_blank">
+                  <div
+                    onClick={() => setNav(false)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
+                    <AiOutlineMail />
+                  </div>
+                </Link>
+                <Link href="/#about" target="_blank">
+                  <div
+                    onClick={() => setNav(false)}
+                    className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110 ease-in duration-300"
+                  >
+                    <BsFillPersonLinesFill />
+                  </div>
+                </Link>
               </div>
             </div>
           </div>
