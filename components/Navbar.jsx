@@ -20,7 +20,7 @@ const Navbar = () => {
   const router = useRouter();
 
   useEffect(() => {
-    if (router.asPath === "/property" || router.asPath === "/crypto") {
+    if (router.asPath === "/portfolio" || router.asPath === "/ptrun") {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
     } else {

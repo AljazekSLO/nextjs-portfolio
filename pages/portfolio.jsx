@@ -1,5 +1,5 @@
 import React from "react";
-import propertyImg from "../public/assets/projects/property.jpg";
+import portfolioImg from "../public/assets/projects/portfolio.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { RiRadioButtonFill } from "react-icons/ri";
@@ -14,11 +14,11 @@ const property = () => {
           layout="fill"
           objectFit="cover"
           alt="/"
-          src={propertyImg}
+          src={portfolioImg}
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Property Finder</h2>
-          <h3>React JS / Tailwind</h3>
+          <h2 className="py-2">NextJS Portfolio</h2>
+          <h3>NextJS / Tailwind</h3>
         </div>
       </div>
       <div className="max-w-[1240px] mx-auto p-2 grid md:grid-cols-5 gap-8 pt-8">
@@ -39,7 +39,14 @@ const property = () => {
             suscipit tempus libero. Sed vel felis tempor, finibus turpis ut.
             (enyoed, kaj sm se naucu, zakaj sm se odlocu)
           </p>
-          <button className="px-8 py-2 mt-4">Code</button>
+          <button className="px-8 py-2 mt-4">
+            <a
+              href="https://github.com/AljazekSLO/nextjs-portfolio"
+              target="_blank"
+            >
+              Code
+            </a>
+          </button>
         </div>
         <div className="col-span-4 md:col-span-1 shadow-xl shadow-gray-400 rounded-xl p-4">
           <div className="p-2">
@@ -49,16 +56,10 @@ const property = () => {
                 <RiRadioButtonFill className="pr-1" /> React{" "}
               </p>
               <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> NextJS{" "}
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind{" "}
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> JavaScript{" "}
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> GoogleAPI{" "}
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> FireBase{" "}
               </p>
             </div>
           </div>
