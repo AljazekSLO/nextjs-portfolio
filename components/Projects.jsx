@@ -1,10 +1,10 @@
 import React from "react";
 
 import Image from "next/image";
-import portfolioImg from "../public/assets/projects/portfolio.jpg";
-import ptrunImg from "../public/assets/projects/ptrun.jpg";
-import authImg from "../public/assets/projects/authapp.jpg";
-import glavniImg from "../public/assets/projects/glavni.jpg";
+import portfolioImg from "./public/assets/projects/portfolio.jpg";
+import ptrunImg from "./public/assets/projects/ptrun.jpg";
+import authImg from "./public/assets/projects/authapp.jpg";
+import glavniImg from "./public/assets/projects/glavni.jpg";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
