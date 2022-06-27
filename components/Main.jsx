@@ -19,14 +19,14 @@ const Main = () => {
             YOUR PERSONAL WEB DEVELOPER
           </p>
           <h1 className="py-4 text-gray-700">
-            Sup, I'm <span className="text-[#5651e5]">Aljaž Radovan</span>{" "}
+            Sup, I&apos;m <span className="text-[#5651e5]">Aljaž Radovan</span>{" "}
           </h1>
           <h1 className="py-2 text-gray-700">A Full-Stack Web Developer</h1>
           <p className="py-4 text-gray-600 max-w-[70%] m-auto">
-            Quickly explained, I'm a full-stack web developer specializing in
-            building dynamic websites. Currently, I'm focused on building modern
-            front-end web applications with React Framework while learning
-            back-end technologies.
+            Quickly explained, I&apos;m a full-stack web developer specializing
+            in building dynamic websites. Currently, I&apos;m focused on
+            building modern front-end web applications with React Framework
+            while learning back-end technologies.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <Link href="https://github.com/AljazekSLO" target="_blank">

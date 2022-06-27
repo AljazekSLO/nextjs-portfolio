@@ -12,28 +12,29 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600 ">
-            I'm a 4rd year Student @{" "}
+            I&apos;m a 4rd year Student @{" "}
             <span>
               <a
                 className="hover:cursor-pointer text-red-500"
                 href="https://www.vegova.si/"
                 target="_blank"
+                rel="noreferrer"
               >
                 Vegova Ljubljana
               </a>
             </span>
-            . I've started my web development journey back in 2019 when I joined
-            my first HTML / CSS course. Later that year I have build my first
-            static HTML / CSS page and that turned into a love for web
+            . I&apos;ve started my web development journey back in 2019 when I
+            joined my first HTML / CSS course. Later that year I have build my
+            first static HTML / CSS page and that turned into a love for web
             development. In 2020 I wanted to learn more, so I got in touch with
             JavaScript. After that I lost motivation to code mostly because I
-            didn't know what to do next. In 2021 I have finally decided to move
-            on and learn more, because this is what i LOVE.
+            didn&apos;t know what to do next. In 2021 I have finally decided to
+            move on and learn more, because this is what i LOVE.
           </p>
           <p className="py-2 text-gray-600">
-            Now I'm spending my time working and creating projects everyday!
-            Currently im learning "MERN" stack and I have a lot of projects
-            planned out in the future!
+            Now I&apos;m spending my time working and creating projects
+            everyday! Currently im learning &apos;MERN&apos; stack and I have a
+            lot of projects planned out in the future!
           </p>
           <Link href="/#projects">
             <p className="py-2 text-gray-600 underline cursor-pointer inline">
