@@ -3,6 +3,8 @@ import React from "react";
 import Image from "next/image";
 import portfolioImg from "../public/assets/projects/portfolio.jpg";
 import ptrunImg from "../public/assets/projects/ptrun.jpg";
+import authImg from "../public/assets/projects/authapp.jpg";
+import glavniImg from "../public/assets/projects/glavni.jpg";
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -16,16 +18,28 @@ const Projects = () => {
         <h2 className="py-4">What I've Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="NextJS Portfolio"
+            title="NextJS React Portfolio"
             backgroundImg={portfolioImg}
-            projectUrl="/portfolio"
-            technologies="NextJs / Tailwind"
+            projectUrl="https://github.com/AljazekSLO/nextjs-portfolio"
+            technologies="Reacz / NextJs / Tailwind"
           />
           <ProjectItem
             title="PTRun Multiplayer Game"
             backgroundImg={ptrunImg}
-            projectUrl="/ptrun"
+            projectUrl="https://github.com/AljazekSLO/ptrun"
             technologies="JavaScript / GoLang / Phaser"
+          />
+          <ProjectItem
+            title="Authentication App"
+            backgroundImg={authImg}
+            projectUrl="https://github.com/AljazekSLO/AuthAPP"
+            technologies="EJS / JavaScript / PassportJS"
+          />
+          <ProjectItem
+            title="Glavni.si"
+            backgroundImg={glavniImg}
+            projectUrl="https://glavni.si/"
+            technologies="HTML / CSS / Bootstrap"
           />
         </div>
       </div>
