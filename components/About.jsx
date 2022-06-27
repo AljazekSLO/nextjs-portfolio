@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/dist/client/image";
 import Link from "next/link";
+import me from "../public/assets/me.webp";
 
 const About = () => {
   return (
@@ -45,7 +46,7 @@ const About = () => {
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
             className="rounded-xl bg-[#bebebe]"
-            src="/../public/assets/me.webp"
+            src={me}
             alt=""
             width="400"
             height="400"
