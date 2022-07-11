@@ -7,6 +7,7 @@ import authImg from "../public/assets/projects/auth.jpg";
 import glavniImg from "../public/assets/projects/glavni.jpg";
 import kolosejImg from '../public/assets/projects/kolosej.jpg'
 import memoriesImg from '../public/assets/projects/memories.jpg'
+import netflixImg from '../public/assets/projects/netflix.jpg'
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -18,18 +19,12 @@ const Projects = () => {
           Projects
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           <ProjectItem
             title="NextJS React Portfolio"
             backgroundImg={portfolioImg}
             projectUrl="https://github.com/AljazekSLO/nextjs-portfolio"
             technologies="Reacz / NextJs / Tailwind"
-          />
-          <ProjectItem
-            title="PTRun Multiplayer Game"
-            backgroundImg={ptrunImg}
-            projectUrl="https://github.com/AljazekSLO/ptrun"
-            technologies="JavaScript / GoLang / Phaser"
           />
           <ProjectItem
             title="Kolosej 2.0"
@@ -40,8 +35,14 @@ const Projects = () => {
           <ProjectItem
             title="Memories App"
             backgroundImg={memoriesImg}
-            projectUrl="https://memories.aljaz-radovan.si"
+            projectUrl="https://github.com/AljazekSLO/Memories-App"
             technologies="MERN (MongoDB, Express, React, Node)"
+          />
+          <ProjectItem
+            title="Netflix Clone 'Aljoflix'"
+            backgroundImg={netflixImg}
+            projectUrl="https://github.com/AljazekSLO/Netflix2.0"
+            technologies="React / Firebase"
           />
           <ProjectItem
             title="Authentication App"
@@ -55,7 +56,6 @@ const Projects = () => {
             projectUrl="https://glavni.si/"
             technologies="HTML / CSS / Bootstrap"
           />
-          
         </div>
       </div>
     </div>
