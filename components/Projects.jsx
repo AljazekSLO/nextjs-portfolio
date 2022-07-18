@@ -8,6 +8,7 @@ import glavniImg from "../public/assets/projects/glavni.jpg";
 import kolosejImg from '../public/assets/projects/kolosej.jpg'
 import memoriesImg from '../public/assets/projects/memories.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
+import ecommerceImg from '../public/assets/projects/store.jpg'
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -49,6 +50,12 @@ const Projects = () => {
             backgroundImg={authImg}
             projectUrl="https://github.com/AljazekSLO/AuthAPP"
             technologies="EJS / JavaScript / PassportJS"
+          />
+          <ProjectItem
+            title="ECommerce Store (Sanity Backend)"
+            backgroundImg={ecommerceImg}
+            projectUrl="/"
+            technologies="NextJS / Sanity / Stripe"
           />
           <ProjectItem
             title="Glavni.si"
