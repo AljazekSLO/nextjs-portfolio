@@ -9,6 +9,7 @@ import kolosejImg from '../public/assets/projects/kolosej.jpg'
 import memoriesImg from '../public/assets/projects/memories.jpg'
 import netflixImg from '../public/assets/projects/netflix.jpg'
 import ecommerceImg from '../public/assets/projects/store.jpg'
+import l2lImg from '../public/assets/projects/l2l.jpg'
 import Link from "next/link";
 import ProjectItem from "./ProjectItem";
 
@@ -62,6 +63,12 @@ const Projects = () => {
             backgroundImg={glavniImg}
             projectUrl="https://glavni.si/"
             technologies="HTML / CSS / Bootstrap"
+          />
+          <ProjectItem
+            title="Lift2Learn"
+            backgroundImg={l2lImg}
+            projectUrl="https://lift2learn.com/"
+            technologies="Wordpress / Elementor / WooCommerce"
           />
         </div>
       </div>
