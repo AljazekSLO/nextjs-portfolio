@@ -11,9 +11,9 @@ const About = () => {
           <p className="uppercase text-xl tracking-widest text-[#5651e5]">
             About
           </p>
-          <h2 className="py-4">Who I Am</h2>
+          <h2 className="py-4">Who am I?</h2>
           <p className="py-2 text-gray-600 ">
-            I&apos;m a 4rd year Student @{" "}
+            I&apos;m a 4th year Student @{" "}
             <span>
               <a
                 className="hover:cursor-pointer text-red-500"
@@ -30,7 +30,7 @@ const About = () => {
             development. In 2020 I wanted to learn more, so I got in touch with
             JavaScript. After that I lost motivation to code mostly because I
             didn&apos;t know what to do next. In 2021 I have finally decided to
-            move on and learn more, because this is what i LOVE.
+            move on and learn more, because this is what I LOVE.
           </p>
           <p className="py-2 text-gray-600">
             Now I&apos;m spending my time working and creating projects
